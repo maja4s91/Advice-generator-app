@@ -1,9 +1,8 @@
-import "core-js/stable";
-
-// polofilling async f
-import "regenerator-runtime/runtime";
-
 ("use strict ");
+// import "core-js/stable";
+
+// // polofilling async f
+// import "regenerator-runtime/runtime";
 
 const btnDice = document.querySelector(".btn-dice");
 console.log(btnDice);
