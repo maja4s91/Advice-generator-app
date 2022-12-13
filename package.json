@@ -1,17 +1,24 @@
 {
   "name": "advice-generator-app",
   "version": "1.0.0",
-  "description": "",
-  "default": "index.html",
+  "description": "This aplication generates a new piece of advice simply by clicking the dice icon.",
+
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maja4s91/Advice-generator-app.git"
   },
   "author": "Maja",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maja4s91/Advice-generator-app/issues"
+  },
+  "homepage": "https://github.com/maja4s91/Advice-generator-app#readme",
   "devDependencies": {
-    "parcel": "^2.8.1",
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.8.1"
   },
   "dependencies": {
     "core-js": "^3.26.1",

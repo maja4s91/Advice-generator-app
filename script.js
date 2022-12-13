@@ -1,8 +1,11 @@
-("use strict ");
-// import "core-js/stable";
+import "core-js/stable";
 
-// // polofilling async f
-// import "regenerator-runtime/runtime";
+// polofilling async f
+import "regenerator-runtime/runtime";
+
+// if (module.hot){
+//   module.hot accept();
+// }
 
 const btnDice = document.querySelector(".btn-dice");
 console.log(btnDice);
