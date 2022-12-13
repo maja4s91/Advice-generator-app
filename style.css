@@ -7,13 +7,13 @@ html {
   font-family: "Manrope", sans-serif;
   font-size: 62.5%;
   box-sizing: border-box;
-  background-color: hsl(217, 19%, 24%);
+  background-color: hsl(218, 23%, 16%);
 }
 
 .container {
   max-width: 144rem;
   height: 65rem;
-  background-color: hsl(217, 19%, 24%);
+  background-color: hsl(218, 23%, 16%);
   display: grid;
   align-items: center;
   justify-content: center;
