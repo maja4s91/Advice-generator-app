@@ -1,7 +1,7 @@
-import "core-js/stable";
+// import "core-js/stable";
 
-// polofilling async f
-import "regenerator-runtime/runtime";
+// // polofilling async f
+// import "regenerator-runtime/runtime";
 
 // if (module.hot){
 //   module.hot accept();
@@ -15,8 +15,8 @@ const getQuote = async function () {
     let res = await fetch("https://api.adviceslip.com/advice");
     let slip = await res.json();
 
-    slipId = slip.slip.id;
-    slipAdvice = slip.slip.advice;
+    const slipId = slip.slip.id;
+    const slipAdvice = slip.slip.advice;
     console.log(slipId, slipAdvice);
 
     const quoteId = document.querySelector(".quote-number");
