@@ -12,7 +12,7 @@ html {
 
 .container {
   max-width: 144rem;
-  height: 65rem;
+  height: 81rem;
   background-color: hsl(218, 23%, 16%);
   display: grid;
   align-items: center;
@@ -65,9 +65,9 @@ html {
   border: none;
   background-color: hsl(150, 100%, 66%);
   border-radius: 100000000000px;
-  top: 61.5%;
-  right: 50%;
-  transform: translate(61.5%, 50%);
+  top: 71.5%;
+  right: 50.5%;
+  transform: translate(71.5%, 50.5%);
 }
 
 .btn-dice:hover {
