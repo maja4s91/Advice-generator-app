@@ -1,19 +1,6 @@
-@media (max-width: 24.5em) {
-  body {
-    background-color: hsl(217, 19%, 24%);
-  }
-  .container {
-    margin: 1vw 3vw;
-  }
-
+@media (max-width: 36em) {
   .generator-box {
-    max-width: 27rem;
-    min-height: 20rem;
-    gap: 2rem;
-    padding-left: 2rem;
-  }
-  .divider {
-    display: none;
+    max-width: 90%;
   }
 
   .quote {
@@ -21,15 +8,8 @@
     text-align: center;
   }
 
-  .dice {
-    padding: 1.5rem;
-  }
-
   .btn-dice {
-    height: 6.4rem;
-    width: 6.4rem;
-    top: 59%;
-    right: 50%;
-    transform: translate(59%, 50%);
+    height: 5rem;
+    width: 5rem;
   }
 }
