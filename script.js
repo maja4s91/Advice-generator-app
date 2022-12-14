@@ -29,7 +29,7 @@ const getQuote = async function () {
   }
 };
 
-// getQuote();
+getQuote();
 
 btnDice.addEventListener("click", function (e) {
   e.preventDefault();
