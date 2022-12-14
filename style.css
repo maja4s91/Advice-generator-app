@@ -15,11 +15,15 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .generator-box {
   position: relative;
-  max-width: 32%;
   background-color: hsl(217, 19%, 24%);
+  max-width: 32%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +58,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   height: 5.2rem;
   width: 5.2rem;
   border: none;
@@ -63,6 +68,5 @@ html {
 }
 
 .btn-dice:hover {
-  cursor: pointer;
   box-shadow: 0 0 3rem hsl(150, 100%, 66%);
 }

@@ -13,3 +13,14 @@
     width: 5rem;
   }
 }
+
+@media (max-width: 93em) {
+  .generator-box {
+    max-width: 35%;
+  }
+
+  .btn-dice {
+    height: 5.5rem;
+    width: 5.5rem;
+  }
+}
